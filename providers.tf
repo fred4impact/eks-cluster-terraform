@@ -11,5 +11,5 @@ terraform {
 
 provider "aws" {
   region  = local.region
-  profile = local.profile
+  profile = local.aws_profile
 }
